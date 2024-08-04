@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Creating a GitHub Pages site with Jekyll"
+title: "Web-based Github Pages Website Creation"
 ---
 
-This post introduces the steps to create a GitHub Pages site.
+GitHub Pages is a free and easy service to host a website from a repository on GitHub.com. Various tutorials have be introduced on how to create a GitHub Pages website. However, most of previous tutorials require a development environment, which depends on the static site generator. These development environments are highly customizable and the compatability issues may occure due to the changing of software versions. Therefore, this post introduces a purely web-based method to create a GitHub Pages website, which does not need any local development. In this post, the default GitHub Pages workflow, which contains [jekyll-build-pages](https://github.com/actions/jekyll-build-pages) based on [pages-gem](https://github.com/github/pages-gem), is leveraged to build the website. The whole workflow is maintained by the GitHub Pages team so that the proposed method is more stable then self-customized one.
 
 {% raw %} 
 
@@ -68,7 +68,7 @@ As the README is usually used to describe information of the rerpository and its
 
 ## Enable Mathjax
 
-1. Create `head.tml` under `_includes`
+1. Create `head.html` under `_includes`
 
     Add the following contents:
 
@@ -89,7 +89,7 @@ As the README is usually used to describe information of the rerpository and its
     </head>
     ```
 
-    We need the create `head.tml` as, for Minima v2.5.1, line `{%- include custom-head.html -%}` was not added so custom head can not be achieved.
+    We need the create `head.html` as, for Minima v2.5.1, line `{%- include custom-head.html -%}` was not added so custom head can not be achieved.
 
 1. Create `custom-head.html` under `_includes`
 
