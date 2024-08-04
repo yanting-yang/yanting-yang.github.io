@@ -1,2 +1,17 @@
-theme: minima
+title: Yanting's Site
+author: Yanting Yang
+email: yanting.yang@ece.ubc.ca
+description: >
+  A personal site built by Yanting Yang.
+
+github_username:  yanting-yang
+rss: rss
+
 show_excerpts: true
+
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ 
