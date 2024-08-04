@@ -5,6 +5,8 @@ title: "Creating a GitHub Pages site with Jekyll"
 
 This post introduces the steps to create a GitHub Pages site.
 
+{% raw %} 
+
 ## Initialize a new site
 
 1. Create a new repository
@@ -115,3 +117,5 @@ As the README is usually used to describe information of the rerpository and its
     ```
 
 1. To enable Mathjax for a post, add `mathjax: true` to the front matter.
+
+{% endraw %}
