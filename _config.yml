@@ -12,3 +12,6 @@ show_excerpts: true
 theme: minima
 
 markdown: GFM
+
+plugins:
+  - jekyll-sitemap
